@@ -1,0 +1,162 @@
+@import './constants/mixin';
+
+@include desktop{
+
+.testimonials {
+    margin: 40px;
+    padding: 20px;
+    color: #eee7e7;
+}
+.testimonial__title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.testimonial {
+    display: flex;
+    margin: 32px;
+}
+
+.testimonial__avata {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.testimonial__avata:nth-child(odd) {
+    margin-right: 40px;
+}
+
+.testimonial__avata:nth-child(even) {
+    margin-left: 40px;
+}
+
+.testimonial__speech-bubble {
+    padding: 18px;
+    border-radius: 4px;
+}
+
+.testimonial__speech-bubble p {
+    color: #eee7e7;
+}
+
+.testimonial__speech-bubble a {
+    color: blue;
+}
+}
+
+
+
+
+
+
+
+
+
+@include tablet{
+
+.testimonials {
+    margin: 40px;
+    padding: 20px;
+    color: #eee7e7;
+}
+.testimonial__title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.testimonial {
+    display: flex;
+    margin: 32px;
+}
+
+.testimonial__avata {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.testimonial__avata:nth-child(odd) {
+    margin-right: 40px;
+}
+
+.testimonial__avata:nth-child(even) {
+    margin-left: 40px;
+}
+
+.testimonial__speech-bubble {
+    padding: 18px;
+    border-radius: 4px;
+}
+
+.testimonial__speech-bubble p {
+    color: #eee7e7;
+}
+
+.testimonial__speech-bubble a {
+    color: blue;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@include mobile{
+
+.testimonials {
+    margin: 40px;
+    padding: 20px;
+    color: #eee7e7;
+}
+.testimonial__title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // margin: 32px;
+}
+
+.testimonial__avata {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.testimonial__avata:nth-child(odd) {
+    margin-right: 40px;
+}
+
+.testimonial__avata:nth-child(even) {
+    margin-left: 40px;
+}
+
+.testimonial__speech-bubble {
+    padding: 18px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+}
+
+.testimonial__speech-bubble p {
+    color: #eee7e7;
+}
+
+.testimonial__speech-bubble a {
+    color: blue;
+}
+}

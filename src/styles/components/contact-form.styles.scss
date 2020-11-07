@@ -1,0 +1,39 @@
+@import './constants/mixin';
+
+@include desktop {
+  .contact-jumbotron {
+    padding: 20px;
+  }
+
+  .contact-title {
+    color: #eee7e7;
+  }
+}
+
+@include tablet {
+  .contact-jumbotron {
+    padding: 20px;
+  }
+
+  .contact-title {
+    color: #eee7e7;
+  }
+
+  .contact-button{
+    font-size: 0.8rem;
+  }
+}
+
+
+@include mobile {
+  .contact-jumbotron {
+    padding: 20px;
+  }
+
+  .contact-title {
+    color: #eee7e7;
+  }
+  .contact-button{
+    font-size: 0.6rem;
+  }
+}

@@ -1,0 +1,191 @@
+@import './constants/mixin';
+
+@include desktop {
+  .about {
+    background-color: transparent;
+    font-size: 1.1em;
+    color: #eee7e7;
+
+    .highcharts-background {
+      padding: 1em 0;
+      font-size: 1.2em;
+      fill: #222;
+    }
+
+
+    .my-details {
+      margin-top: 20px;
+    }
+
+    .about__buttons {
+      margin-top: 10px;
+    }
+
+    .profile {
+      max-width: 18em;
+    }
+
+
+    .job__logo {
+      width: 80px;
+      height: 80px;
+    }
+
+    .about__jobs {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin-bottom: 50px;
+    }
+
+    .job__description {
+      margin: 0 16px;
+      text-align: left;
+    }
+
+    .job__name,
+    .job__period {
+      color: #eee7e7;
+    }
+
+    .job__name {
+      font-size: 16px;
+    }
+
+    .job__period {
+      font-size: 14px;
+    }
+
+
+  }
+}
+
+@include tablet {
+  .about {
+    background-color: transparent;
+    font-size: 0.9em;
+    color: #eee7e7;
+
+    .highcharts-background {
+      padding: 1em 0;
+      font-size: 1.0em;
+      fill: #222;
+      width: 400px;
+      height: 150px;
+    }
+
+
+    .my-details {
+      margin-top: 20px;
+    }
+
+    .about__buttons {
+      margin-top: 10px;
+    }
+    .button{
+      font-size: 8px;
+    }
+
+    .profile {
+      max-width: 15em;
+    }
+
+
+    .job__logo {
+      width: 50px;
+      height: 50px;
+    }
+
+    .about__jobs {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin-bottom: 50px;
+    }
+
+    .job__description {
+      margin: 0 16px;
+      text-align: left;
+    }
+
+    .job__name,
+    .job__period {
+      color: #eee7e7;
+    }
+
+    .job__name {
+      font-size: 12px;
+    }
+
+    .job__period {
+      font-size: 10px;
+    }
+
+
+  }
+}
+
+
+@include mobile {
+  .about {
+    background-color: transparent;
+    font-size: 0.7em;
+    color: #eee7e7;
+
+    .highcharts-background {
+      padding: 1em 0;
+      font-size: 1.2em;
+      fill: #222;
+    }
+
+
+    .my-details {
+      margin-top: 20px;
+    }
+
+    .about__buttons {
+      margin-top: 10px;
+    }
+
+    .button{
+      font-size: 7px;
+    }
+
+    .profile {
+      max-width: 10em;
+    }
+
+
+    .job__logo {
+      width: 40px;
+      height: 40px;
+    }
+
+    .about__jobs {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin-bottom: 50px;
+    }
+
+    .job__description {
+      margin: 0 16px;
+      text-align: left;
+    }
+
+    .job__name,
+    .job__period {
+      color: #eee7e7;
+    }
+
+    .job__name {
+      font-size: 10px;
+    }
+
+    .job__period {
+      font-size: 8px;
+    }
+
+
+  }
+}
